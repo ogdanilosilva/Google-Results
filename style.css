@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    padding: 30px 60px;
+    display: flex;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+.barra-pesquisa {
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    width: 700px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.barra-pesquisa input {
+    width: 500px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.barra-pesquisa:hover {
+    box-shadow: 2px 2px 8px #ccc;
+}
+
+.barra-pesquisa img {
+    margin-right: 20px;
+}
+
+.barra-pesquisa span {
+    border-left: 2px solid #ccc;
+    width: 25px;
+    height: 25px;
+}
+
+.keyboard img {
+    width: 23px;
+}
+
+.mic-google img {
+    width: 14px;
+}
+
+.google-lens img {
+    width: 20px;
+}
+
+.search img {
+    width: 23px;
+    height: 23px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+.options a {
+    margin-left: 30px;
+}
+
+.options img {
+    width: 23px;
+}
+
+.account {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.account img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container {
+    width: 870px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.busca-opcoes {
+    display: flex;
+    align-items: flex-end;
+}
+
+.busca-opcoes a {
+    color: #5f6368;
+    padding: 17px 12px 11px 10px;
+    font-size: 14px;
+}
+
+.busca-opcoes span {
+    display: flex;
+    align-items: center;
+}
+
+.busca-opcoes a img {
+    width: 16px;
+    margin-right: 5px;
+}
+
+.busca-opcoes a:nth-child(1) {
+    color: #1a73e8;
+    border-bottom: 3px solid #1a73e8;
+}
+
+.ferramentas {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    color: #5f6368;
+    padding: 17px 12px 11px 10px;
+    font-size: 14px;
+}
+
+.box-results, .content {
+    width: 650px;
+}
+
+.results {
+    color: #70757a;
+    font-size: 14px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.page {
+    margin-bottom: 30px;
+    width: 670px;
+}
+
+.content-page a {
+    font-size: 20px;
+}
+
+.content-page a:hover {
+    text-decoration: underline;
+}
+
+.second-page {
+    margin-top: -10px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    background: #f1f3f4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.icon img {
+    width: 16px;
+    height: 16px
+}
+
+.info {
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name {
+    font-size: 15px;
+
+}
+
+.weblink {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.weblink span img {
+    width: 12px;
+    margin-left: 10px;
+}
+
+.desc {
+    margin-top: 5px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #4d5156;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+.center-google {
+    display: flex;
+    justify-content: center;
+}
+
+.center-google tr {
+    display: flex;
+}
+
+.center-google td {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.center-google td span {
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.center-google a {
+    color: #448ef0;
+    font-size: 14px;
+}
+
+.center-google a:hover {
+    text-decoration: underline;
+}
+
+.color-blue {
+    color: #448ef0;
+}
+
+.more-blue {
+    color: #448ef0;
+}
+
+.arrow img {
+    width: 12px;
+}
+
+.color-orange {
+    color: #ffbf48;
+}
+
+.color-red {
+    color: #c91e1e;
+}
+
+.color-green {
+    color: #008000;
+
+}
+
+footer {
+    color: #70757a;
+    background-color: #f2f2f2;
+    font-size: 15px;
+}
+
+.footer-content {
+    width: 670px;
+}
+
+.footer-option {
+    display: flex;
+}
+
+.border {
+    border-right: 1px solid #ccc;
+}
+
+.footer-option p, .footer-option a {
+    margin: 10px;
+}
+
+.footer-option img {
+    width: 14px;
+}
+
+.footer-second {
+    border-top: 1px solid #ccc;
+}
